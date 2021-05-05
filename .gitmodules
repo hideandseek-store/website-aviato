@@ -1,3 +1,8 @@
 [submodule "themes/aviato"]
 	path = themes/aviato
 	url = https://github.com/hideandseek-store/aviato.git
+
+[submodule "public"]
+	path = public
+	url = git@github.com:hideandseek-store/hideandseek-store.github.io.git
+	branch = gh-pages

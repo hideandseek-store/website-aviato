@@ -1,4 +1,4 @@
-name: deploy gh-pages on hideandseek-store.github.io
+name: deploy gh-pages (aviato) on hideandseek-store.github.io
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_branch: gh-pages  # default: gh-pages
+          publish_branch: gh-pages-aviato  # default: gh-pages
           personal_token: ${{ secrets.WEBSITE_TOKEN }}
           publish_dir: ./public # default: public
           external_repository: hideandseek-store/hideandseek-store.github.io
