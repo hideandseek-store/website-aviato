@@ -1,0 +1,3 @@
+[submodule "themes/aviato"]
+	path = themes/aviato
+	url = https://github.com/hideandseek-store/aviato.git

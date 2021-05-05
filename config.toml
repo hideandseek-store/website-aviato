@@ -1,0 +1,60 @@
+# default configuration
+baseURL = "" # hideandseek-store.github.io
+languageCode = "en-us"
+title = "Company Name"
+theme = "aviato"
+
+# css plugins
+[[params.plugins.css]] # Themefisher Icon font
+link = "plugins/themefisher-font/style.css"
+[[params.plugins.css]] # bootstrap.min css
+link = "plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]] # Animate css
+link = "plugins/animate/animate.css"
+[[params.plugins.css]] # Slick Carousel
+link = "plugins/slick/slick.css"
+[[params.plugins.css]] # Slick Carousel
+link = "plugins/slick/slick-theme.css"
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jquery/dist/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"
+[[params.plugins.js]]
+link = "plugins/instafeed/instafeed.min.js"
+[[params.plugins.js]]
+link = "plugins/ekko-lightbox/dist/ekko-lightbox.min.js"
+[[params.plugins.js]]
+link = "plugins/syo-timer/build/jquery.syotimer.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick-animation.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
+# default parameters
+[params]
+
+# meta description
+author = "Company Name"
+description = "Company Name store"
+headline = "Explore our products"
+
+# contact info
+phone = "+34 765 432 100"
+email = "contact@noel.engineer"
+address = "Worldwide"
+
+# products
+[params.products]
+enable = true
+headline = "Explore our products"
+
+# categories
+[params.categories]
+enable = true
+headline = "Product categories"
